@@ -1241,6 +1241,15 @@ section,
 
 /* Accordion settings to make the button bg color be green and text white when active */
 
+.accordion-item .accordion-header .accordion-button:not(.collapsed) {
+  background-color: #e9ecef; /* Background color when active */
+}
+
+.accordion-item .accordion-header .accordion-button {
+  background-color: #f8f9fa; /* Default background color */
+}
+
+/*
 .accordion-item {
   background-color: white;
 }
@@ -1251,6 +1260,7 @@ section,
 .accordion-button-collapse {
   background-color: white;
 }
+*/
 
 /* Profile picture settings */
 
